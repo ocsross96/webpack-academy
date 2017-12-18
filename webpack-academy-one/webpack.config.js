@@ -9,33 +9,12 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
-        use: { 
-          loader: "babel-loader"
-        }
-      },
-      {
-        test: /\.css$/,
+        test: /\.jpe?g$/,
         use: [
-          { 
-            loader: "style-loader",
-          },
-          {
-            loader: "css-loader"
-          }
+          "file-loader",
+          { loader: "image-webpack-loader" }
         ]
       },
-      {
-        test: /\.jpeg$/,
-        use: [
-          {
-            loader: "url-loader", 
-            options: {
-              limit: 10000
-            }
-          }
-        ]
-      }
     ]
   }
 }

@@ -4,6 +4,8 @@
     "watch": "webpack --watch"
   },
   "devDependencies": {
+    "file-loader": "^1.1.6",
+    "image-webpack-loader": "^3.4.2",
     "webpack": "^3.9.1"
   }
 }
