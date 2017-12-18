@@ -10,10 +10,7 @@ module.exports = {
     rules: [
       {
         test: /\.jpe?g$/,
-        use: [
-          "file-loader",
-          { loader: "image-webpack-loader" }
-        ]
+        use: "file-loader"
       },
     ]
   }

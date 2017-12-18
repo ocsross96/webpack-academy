@@ -65,9 +65,20 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__logo_on_white_bg_jpg__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__logo_on_white_bg_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__logo_on_white_bg_jpg__);
 
+console.log('HELLO FROM WEBPACK ACADEMY');
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fe222041b0b2f836b3f658d08df6a2cf.jpg";
 
 /***/ })
 /******/ ]);
