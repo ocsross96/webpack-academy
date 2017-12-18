@@ -6,3 +6,5 @@ class ExamplePlugin {
     });
   }
 }
+
+module.exports = ExamplePlugin;
