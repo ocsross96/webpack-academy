@@ -78,7 +78,7 @@ console.log('HELLO FROM WEBPACK ACADEMY');
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "fe222041b0b2f836b3f658d08df6a2cf.jpg";
+module.exports = __webpack_require__.p + "cd533b13d4b110412c9e63395018bcfb.jpg";
 
 /***/ })
 /******/ ]);
