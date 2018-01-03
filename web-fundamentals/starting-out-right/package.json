@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "debug": "yarn build -- --env.debug=1"
+    "build:log": "yarn build -- --env.foo=1 --env.bar=2",
     "watch": "yarn build -- --watch",
-    "build": "webpack --verbose"
+    "build": "webpack"
   },
   "devDependencies": {
     "webpack": "^3.10.0",

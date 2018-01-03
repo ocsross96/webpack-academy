@@ -1,9 +1,12 @@
 const path = require("path");
 
-module.exports = {
-  entry: "./src/",
-  output: {
-    filename: "[chunkhash].bundle.js",
-    path: path.join(__dirname, "dist")
+module.exports = (env) => {
+  console.log(env);
+  return {
+    entry: "./src/",
+    output: {
+      filename: "[chunkhash].bundle.js",
+      path: path.join(__dirname, "dist")
+    }
   }
 }
