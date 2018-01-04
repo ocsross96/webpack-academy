@@ -11,6 +11,7 @@
     "build:dev:bundlebuddy": "yarn build:dev -- --env.addons=bundlebuddy",
     "build:dev:bundleanalyze": "yarn build:dev -- --env.addons=bundleanalyze",
     "build:dev": "yarn build -- --env.dev=dev",
+    "debug:dev": "yarn debug -- --env.env=dev",
     
     "build:prod:bundlebuddy": "yarn build:prod -- --env.addons=bundlebuddy",
     "build:prod:bundleanalyze": "yarn build:prod -- --env.addons=bundleanalyze",
@@ -19,6 +20,8 @@
     "build:alladdons": "yarn build:prod -- --env.addons=bundlebuddy --env.addons=bundleanalyze",
     "build:prod:firstplugin": "yarn build:prod -- --env.addons=firstplugin",
 
+    "debug": "node --inspect --debug-brk ./node_modules/webpack/bin/webpack.js",
+    
     "build": "webpack",
     "webpack-defaults": "webpack-defaults"
   },
