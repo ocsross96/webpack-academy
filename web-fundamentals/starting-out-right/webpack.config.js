@@ -10,11 +10,11 @@ const addons = (addonsArg) => {
 }
 
 module.exports = (env) => {
-  console.log(env);
+  console.log('env', env);
   const envConfig = require(`./build-utils/webpack.${env.env}.js`);
   const mergedConfig = webpackMerge(commonConfig, envConfig, ...addons(env.addons));
 
-  console.log(mergedConfig);
+  console.log('mergedConfig', mergedConfig);
 
   return mergedConfig;
 }
