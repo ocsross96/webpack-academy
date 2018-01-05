@@ -1,5 +1,5 @@
 const config = {
-  devtool: "source-map"
+  devtool: "source-map" // webpack.js.org/configuration/devtool
 };
 
 module.exports = config;
